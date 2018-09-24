@@ -1,0 +1,17 @@
+<mat-sidenav-container class="wrapper">
+  <mat-sidenav #sidenav mode="over" class="sidenav">
+    Sidenav content
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <mat-toolbar color="primary">
+      <button mat-icon-button (click)="sidenav.toggle()">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <span class="relleno-espacio"></span>
+      <span>
+        <!-- PARTE DERECHA -->
+      </span>
+    </mat-toolbar>
+  </mat-sidenav-content>
+</mat-sidenav-container>
