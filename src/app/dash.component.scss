@@ -1,0 +1,17 @@
+.wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.relleno-espacio {
+  flex: 1 1 auto;
+}
+
+.sidenav{
+  background: white;
+  padding: 15px;
+  width: 17.5% !important;
+}
